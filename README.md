@@ -1,13 +1,17 @@
-# Introduction-to-Data-Science
+# Manipulating and Analyzing Large Data
+
+This repository contains three insights into big data topics.
+
+## Description
 
 This repository contains three assignments for the Term 2 course: Introduction to Data Science. This ReadMe file will outline what you will find within these three assignments and go over the process taken to complete each. The code for these assignments is a mixture of code provided within the assignment notebook, code used in class, and code written by myself. 
 
-Assignment 1 - Contribute to the library of missing datasets
+### Assignment 1 - Contribute to the library of missing datasets
 
 For this assignment, we were tasked to consider an addition to Mimi Onuoha's "Missing Datasets" project. After many courses discussing data sovereignty, I became quite interested in those agencies which hold and use our data, and the power imbalances that creates. The first thing that came to mind was the infamous whistelblower case with Edward Snowden and the U.S. National Security Agency, which revealed that the NSA has illegally obtained and stored data from over a billion individuals world-wide. With this idea, I dove more into the Mimi Onuoha's work and began asking myself questions surrounding this proposed dataset, such as why does it not exist? How did the NSA do this in the first place? Will they stop? These questions led me down a path of research that turned into the paper submitted for this assignment. 
 
 
-Assignment 2 - Regression Data Exploration Report
+### Assignment 2 - Regression Data Exploration Report
 
 For this assignment, we were asked to pick a dataset with at least three numeric variables to be analyzed and fitted with various regression models to research the relationship between said variables. The dataset I have chosen for this is a list of the Top 100 most streamed songs on Spotify, taken from Kaggle. The link to this dataset can be found here: https://www.notion.so/Assignment-2-9107a937dcbc41fe96cb62a71b3a3c05?pvs=4#ad2e609104d047f5bf07238a6e526eea. This dataset includes a variety of attributes about each song, such as beats per minute, valance, danceability (all of which were analyzed for this project), among others such as loudness, length, acousticness, etc. 
 
@@ -15,8 +19,7 @@ I chose to study beats per minute (BPS) against danceability first, to see if te
 
 After this, I added in a third independent variable: valance, to see the relationshio between valance (a measure of happiness), and beats per minute and danceability. To do this, I applied a Linear Regression model to the data and used that to see if I could use beats per minute and danceability to predict valance. I selected values which were in my dataset, to see whether the the predictions were accurate or not. For more analysis on these results, please refer to the jupyter notebook within this repository. 
 
-
-Assignment 3 - Clustering with Numerical Datasets
+### Assignment 3 - Clustering with Numerical Datasets
 
 The third and final assignment for Introduction to Data Science involved selecting a dataset with numeric values to use for clustering. The dataset selected for this was from Kaggle, and contains a series of attributes associated with sleep efficiency, such as bedtime, wake up time, deep sleep percentage, caffein consumption, etc. This dataset can be found here: https://www.kaggle.com/datasets/equilibriumm/sleep-efficiency. For the purpose of clustering, I was interested in looking at the relationship between caffeine consumption and sleep efficiency. 
 
@@ -26,4 +29,26 @@ After doing this, I repeated the process using two new variables: deep sleep per
 
 To round out the project, I took a look back at caffeine consumption and sleep efficiency, plotting the data without dimensionality reductions or clustering to get a better idea of how the clustering understood the data. My last exercise for this assignment was to plot selections of the features within each cluster from the clustering done with sleep efficiency, caffeine consumption, deep sleep percentage, and exercise efficiency. Again, this was done to better visualize the relationships between the various variables and how they were clustered by the model. 
 
-This concludes all assignments for this course. 
+## Getting Started
+
+### Dependencies
+
+* The majority of this work was done using Kaggle Datasets available as open-source files.
+* It also relies heavily on scikit-learn and matplotlib.
+
+### Executing program
+
+Working through this program is relatively easy and can be simply done by downloading any dataset of your choosing and uploading it within the Jupyter notebook. Within that you can utilize the cells available to reveal truths in the data. 
+
+## Authors
+
+Marissa Beaty, https://github.com/mbeaty2
+
+## Version History
+* 0.1
+    * Initial Release
+
+## Acknowledgments
+
+Inspiration, code snippets, etc.
+* [awesome-readme](https://github.com/matiassingers/awesome-readme)
